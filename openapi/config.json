@@ -1,0 +1,7 @@
+{
+  "modelPackage": "open-cluster-management.io",
+  "apiPackage": "open-cluster-management.io",
+  "groupId": "io.open-cluster-management",
+  "artifactId": "client-java",
+  "dateLibrary": "java8"
+}
