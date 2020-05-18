@@ -1,0 +1,51 @@
+
+# IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1JSONSchemaProps
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**ref** | **String** |  |  [optional]
+**schema** | **String** |  |  [optional]
+**additionalItems** | [**IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1JSONSchemaPropsOrBool**](IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1JSONSchemaPropsOrBool.md) |  |  [optional]
+**additionalProperties** | [**IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1JSONSchemaPropsOrBool**](IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1JSONSchemaPropsOrBool.md) |  |  [optional]
+**allOf** | [**List&lt;IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1JSONSchemaProps&gt;**](IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1JSONSchemaProps.md) |  |  [optional]
+**anyOf** | [**List&lt;IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1JSONSchemaProps&gt;**](IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1JSONSchemaProps.md) |  |  [optional]
+**_default** | [**IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1JSON**](IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1JSON.md) | default is a default value for undefined object fields. Defaulting is a beta feature under the CustomResourceDefaulting feature gate. CustomResourceDefinitions with defaults must be created using the v1 (or newer) CustomResourceDefinition API. |  [optional]
+**definitions** | [**Map&lt;String, IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1JSONSchemaProps&gt;**](IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1JSONSchemaProps.md) |  |  [optional]
+**dependencies** | [**Map&lt;String, IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1JSONSchemaPropsOrStringArray&gt;**](IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1JSONSchemaPropsOrStringArray.md) |  |  [optional]
+**description** | **String** |  |  [optional]
+**_enum** | [**List&lt;IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1JSON&gt;**](IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1JSON.md) |  |  [optional]
+**example** | [**IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1JSON**](IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1JSON.md) |  |  [optional]
+**exclusiveMaximum** | **Boolean** |  |  [optional]
+**exclusiveMinimum** | **Boolean** |  |  [optional]
+**externalDocs** | [**IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1ExternalDocumentation**](IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1ExternalDocumentation.md) |  |  [optional]
+**format** | **String** |  |  [optional]
+**id** | **String** |  |  [optional]
+**items** | [**IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1JSONSchemaPropsOrArray**](IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1JSONSchemaPropsOrArray.md) |  |  [optional]
+**maxItems** | **Long** |  |  [optional]
+**maxLength** | **Long** |  |  [optional]
+**maxProperties** | **Long** |  |  [optional]
+**maximum** | **Double** |  |  [optional]
+**minItems** | **Long** |  |  [optional]
+**minLength** | **Long** |  |  [optional]
+**minProperties** | **Long** |  |  [optional]
+**minimum** | **Double** |  |  [optional]
+**multipleOf** | **Double** |  |  [optional]
+**not** | [**IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1JSONSchemaProps**](IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1JSONSchemaProps.md) |  |  [optional]
+**nullable** | **Boolean** |  |  [optional]
+**oneOf** | [**List&lt;IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1JSONSchemaProps&gt;**](IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1JSONSchemaProps.md) |  |  [optional]
+**pattern** | **String** |  |  [optional]
+**patternProperties** | [**Map&lt;String, IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1JSONSchemaProps&gt;**](IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1JSONSchemaProps.md) |  |  [optional]
+**properties** | [**Map&lt;String, IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1JSONSchemaProps&gt;**](IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1JSONSchemaProps.md) |  |  [optional]
+**required** | **List&lt;String&gt;** |  |  [optional]
+**title** | **String** |  |  [optional]
+**type** | **String** |  |  [optional]
+**uniqueItems** | **Boolean** |  |  [optional]
+**xKubernetesEmbeddedResource** | **Boolean** | x-kubernetes-embedded-resource defines that the value is an embedded Kubernetes runtime.Object, with TypeMeta and ObjectMeta. The type must be object. It is allowed to further restrict the embedded object. kind, apiVersion and metadata are validated automatically. x-kubernetes-preserve-unknown-fields is allowed to be true, but does not have to be if the object is fully specified (up to kind, apiVersion, metadata). |  [optional]
+**xKubernetesIntOrString** | **Boolean** | x-kubernetes-int-or-string specifies that this value is either an integer or a string. If this is true, an empty type is allowed and type as child of anyOf is permitted if following one of the following patterns:  1) anyOf:    - type: integer    - type: string 2) allOf:    - anyOf:      - type: integer      - type: string    - ... zero or more |  [optional]
+**xKubernetesListMapKeys** | **List&lt;String&gt;** | x-kubernetes-list-map-keys annotates an array with the x-kubernetes-list-type &#x60;map&#x60; by specifying the keys used as the index of the map.  This tag MUST only be used on lists that have the \&quot;x-kubernetes-list-type\&quot; extension set to \&quot;map\&quot;. Also, the values specified for this attribute must be a scalar typed field of the child structure (no nesting is supported). |  [optional]
+**xKubernetesListType** | **String** | x-kubernetes-list-type annotates an array to further describe its topology. This extension must only be used on lists and may have 3 possible values:  1) &#x60;atomic&#x60;: the list is treated as a single entity, like a scalar.      Atomic lists will be entirely replaced when updated. This extension      may be used on any type of list (struct, scalar, ...). 2) &#x60;set&#x60;:      Sets are lists that must not have multiple items with the same value. Each      value must be a scalar (or another atomic type). 3) &#x60;map&#x60;:      These lists are like maps in that their elements have a non-index key      used to identify them. Order is preserved upon merge. The map tag      must only be used on a list with elements of type object. Defaults to atomic for arrays. |  [optional]
+**xKubernetesPreserveUnknownFields** | **Boolean** | x-kubernetes-preserve-unknown-fields stops the API server decoding step from pruning fields which are not specified in the validation schema. This affects fields recursively, but switches back to normal pruning behaviour if nested properties or additionalProperties are specified in the schema. This can either be true or undefined. False is forbidden. |  [optional]
+
+
+
